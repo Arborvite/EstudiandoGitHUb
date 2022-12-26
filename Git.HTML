@@ -21,13 +21,16 @@
     <p> <span>touch </span>  Crea un documento en el directorio. Ejemplo: touch Git.html<p>
     <p> <span>history </span>  Nos muestra todos los comandos utilizados<p>
     <h2>Git</h2>
-    <p><span>git init</span> Inicia git.</p>
+    <p><span>git init</span> es el comando que activa git en nuestro proyecto creando un espacio en memoria RAM llamado staging y una carpeta .git.</p>
+    <p>Este comando se encargará de dos cosas: primero, crear una carpeta .git, donde se guardará toda la base de datos con cambios atómicos de nuestro proyecto; segundo, crear un área que conocemos como staging, que guardará temporalmente nuestros archivos (cuando ejecutemos un comando especial para eso) y nos permitirá, más adelante, guardar estos cambios en el repositorio (también con un comando especial).</p>
     <p><span>git status</span> Evidencia el estado de los documentos.</p>
     <p><span>git add</span> Prepara el documento o los documentos (staging) para ser agregados al repositoriol. git add . agrega todos los documentos.
         Ejemplo: git add Git.html
     </p>
     <p><span>git commit -m "Primnera versiòn"</span> Se agrega al repositorio el documento  o los documentos. Ejemplo: git commit -m "Mensaje" </p>
-    <p><span>git log</span></p>
+    <p><span>git show</span> Te muestro los cambios del archivo. Ejemplo: git show Git.html</p>
+    <p><span>git log</span> Muestra la historia del archivo.</p>
+    <p><span>Staging</span> El área de staging se puede ver como un limbo donde nuestros archivos están por ser enviados al repositorio o ser regresados a la carpeta del proyecto.</p>
 
 </body>
 </html>
